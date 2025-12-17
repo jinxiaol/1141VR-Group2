@@ -900,7 +900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d8366a05d93d8714184acd22e6939c66, type: 3}
       propertyPath: m_Name
-      value: Metal Desk
+      value: Desk
       objectReference: {fileID: 0}
     - target: {fileID: 6278297341781942399, guid: d8366a05d93d8714184acd22e6939c66, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1043,7 +1043,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 15446db37efc1ed40af39dd820588fe5, type: 2}
     - target: {fileID: 919132149155446097, guid: 3bfd9b4d0c49c224f84d8372fd20f8f5, type: 3}
       propertyPath: m_Name
-      value: old phone
+      value: phone
       objectReference: {fileID: 0}
     - target: {fileID: 1086988697442946232, guid: 3bfd9b4d0c49c224f84d8372fd20f8f5, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1128,7 +1128,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: e34b532d0b02fee49a81167f3fccb048, type: 2}
     - target: {fileID: 919132149155446097, guid: 08db1bde60e748d41960f333a7251aa1, type: 3}
       propertyPath: m_Name
-      value: cliff_2
+      value: cliff
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1326,7 +1326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4244a797a750f2742b67f1005a63d503, type: 3}
       propertyPath: m_Name
-      value: old_warehouse01_upgrade
+      value: house
       objectReference: {fileID: 0}
     - target: {fileID: 2001645095490363967, guid: 4244a797a750f2742b67f1005a63d503, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -1807,7 +1807,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 03a7b5d7a9fbe294683c2563cc9f2e5d, type: 2}
     - target: {fileID: 919132149155446097, guid: bce8d569d6aa4dd44aa9fd75760b1d27, type: 3}
       propertyPath: m_Name
-      value: Rusted Car
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: bce8d569d6aa4dd44aa9fd75760b1d27, type: 3}
       propertyPath: m_LocalPosition.y
