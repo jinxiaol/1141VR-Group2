@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         Ray ray = playerCamera.GetComponent<Camera>().ScreenPointToRay(new Vector3(Screen.width / 2, Screen.height / 2));
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 20f))
+        if (Physics.Raycast(ray, out hit, 50f))
         {
             NPCController npc = hit.collider.GetComponent<NPCController>();
             if (npc != null) npc.ShowDialogue();
