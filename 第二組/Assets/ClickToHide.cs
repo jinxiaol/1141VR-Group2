@@ -8,7 +8,6 @@ public class ClickToHide : MonoBehaviour
     void OnEnable()
     {
         timer = 0f;
-        // 確保自己能攔截滑鼠，不讓點擊穿透到後面的按鈕
         if (GetComponent<Image>() != null)
         {
             GetComponent<Image>().raycastTarget = true;
@@ -19,7 +18,6 @@ public class ClickToHide : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        // 延遲 0.3 秒，防止點擊寶箱時直接觸發關閉
         if (timer > 0.3f && Input.GetMouseButtonDown(0))
         {
             this.gameObject.SetActive(false);

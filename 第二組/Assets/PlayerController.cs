@@ -82,6 +82,6 @@ public class PlayerController : MonoBehaviour
         RenderSettings.fog = enable;
         RenderSettings.fogColor = new Color(0.01f, 0.01f, 0.01f);
         RenderSettings.fogMode = FogMode.ExponentialSquared;
-        RenderSettings.fogDensity = enable ? 0.06f : 0f;
+        RenderSettings.fogDensity = enable ? 0.065f : 0f;
     }
 }
